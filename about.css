@@ -1,0 +1,141 @@
+/* about.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: #171414; /* Set text color to contrast with the background */
+}
+/* Reset some default styles and set box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navbar container */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the navigation list */
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+/* Style the list items */
+.nav-list li {
+    margin-right: 15px;
+}
+
+/* Style the anchor tags */
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Style the logo */
+.logo img {
+    max-height: 40px; /* Adjust the height as needed */
+    margin-right: 10px;
+    border: 3px solid rgb(119, 108, 108);
+    border-radius: 50px; /* Add space between logo and home */
+}
+
+/* Style the right navigation section */
+.rightnav {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the search input */
+#search {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* Style the search button */
+.btn {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Style the button on hover */
+.btn:hover {
+    background-color: #bbb;
+}
+
+
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about-content {
+    flex: 1;
+    max-width: 75%;
+    color: #171414;
+}
+
+.about-content h2 {
+    color: rgb(27, 23, 23); 
+    font-size: 24px;/* Set heading color */
+    margin-bottom: 10px;
+}
+
+.about-images {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; /* Set flex-direction to column to stack images vertically */
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.about-images img {
+    max-width: 100%;
+    height: auto;
+    width: 250px; /* Adjust the width for larger images */
+    border: 4px solid rgba(26, 22, 22, 0.5); /* Add a thicker white border with a smoky effect */
+    border-radius: 12px; /* Optional: Add border-radius for rounded corners */
+    margin-bottom: 20px; /* Increase margin for better spacing */
+}
+
+/* Add more styles as needed */
